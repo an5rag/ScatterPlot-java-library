@@ -3,6 +3,7 @@ Implementation of Scatter-Plot-Search in java
 Written by Anurag Choudhary
 2/19/2016
 achdhry3@illinois.edu
+
 ----------------
 
 Read this file to know exactly what's going on with the ScatPlotRank Java library.
@@ -83,13 +84,13 @@ The algorithm that I have implemented in this library is based on first indexing
 	5,3,'A',0.5 
 	3,2,'C',1.0
 
-* Thus, we count each point for each class by their weights and then add them to a tree map (Category: Total-score)
-So our tree map looks like this:
+* 	Thus, we count each point for each class by their weights and then add them to a tree map (Category: Total-score)
+	So our tree map looks like this:
 
-A: 0.5
-C: 1.0
+	A: 0.5
+	C: 1.0
 
-* We then send back the result and the front-end can do the job of sorting the result classes based on their scores.
+* 	We then send back the result and the front-end can do the job of sorting the result classes based on their scores.
 
 ----------------------
 
